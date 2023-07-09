@@ -62,8 +62,40 @@
     margin: auto;
     padding: 10px;
     color: white;
+    margin-bottom: 10px;
 }
-.primary-btn{
+.btn{   
+    padding: 15px 35px;
+    border: none;
+    font-size: 17px;
+    margin: 5px;
+}
+.btn-more{
     background-color: red;
-    padding: 10px;
+    color: white;     
+}
+/* this is service section */
+.service-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-position:cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    margin:0 auto;
+    color: white;
+    /* align-items: center; */
+   justify-content: space-around;
+   /* text-align: center; */
+   padding: 40px;
+}
+.service-btn{
+    border-radius: 25px;
+}
+.sevice-description{
+    width: 50%;
+}
+.left-side-contain{
+    width: 50%;
+    /* margin-left: 25px; */
 }
